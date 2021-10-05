@@ -1,0 +1,5 @@
+server:
+  port: 8700
+#spring:
+  #aop:
+    #auto: true 默认应该是开启的，这里不写也行
