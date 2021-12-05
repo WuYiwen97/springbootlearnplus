@@ -12,6 +12,8 @@
         <module>springboot-aop</module>
         <module>springboot-ThreadPool</module>
         <module>springboot-jwt</module>
+        <module>springboot-di</module>
+        <module>algorithm</module>
     </modules>
 
     <parent>
