@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean name="userDao" class="com.wuyiwen.UserDaoImpl"></bean>
+    <bean name="userService" class="com.wuyiwen.UserServiceImpl">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+</beans>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!-- 此标签的作用 是实例化UserServiceImpl类的实例 交给 Spring 容器 -->
+    <bean id="userService" class="com.wuyiwen.UserServiceImpl"></bean>
+
+    <!-- 数组的属性注入 -->
+    <bean id="user" class="com.wuyiwen.User">
+        <property name="array">
+            <array>
+                <value>tom</value>
+                <value>jerry</value>
+            </array>
+        </property>
+    </bean>
+
+</beans>
+
