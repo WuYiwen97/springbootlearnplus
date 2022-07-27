@@ -1,17 +1,16 @@
-package com.wyw;
+package com.wuyiwen.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.ArrayList;
-import java.util.List;
+import org.springframework.stereotype.Component;
 
 @Data
-@AllArgsConstructor
+@Component
 @NoArgsConstructor
+@AllArgsConstructor
 public class People {
-
     private int age;
     private String name;
+
 }

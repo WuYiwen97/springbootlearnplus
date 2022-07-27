@@ -17,6 +17,10 @@
         <module>Reflect</module>
         <module>spring-muke</module>
         <module>spring-aop-transation</module>
+        <module>jfinalDemo</module>
+        <module>springboot-demo</module>
+        <module>lambda-test</module>
+        <module>spring-logback</module>
     </modules>
 
     <parent>
