@@ -21,6 +21,8 @@
         <module>springboot-demo</module>
         <module>lambda-test</module>
         <module>spring-logback</module>
+        <module>mybatis-plus</module>
+        <module>designpattern-demo</module>
     </modules>
 
     <parent>

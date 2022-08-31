@@ -1,5 +1,8 @@
 package com.wuyiwen.vo;
 
+import javax.tools.JavaCompiler;
+import javax.tools.ToolProvider;
+
 public class Demo {
 
     public static void main(String[] args) {
@@ -10,8 +13,11 @@ public class Demo {
          * 猜猜打印的内容是什么？
          */
         Son son = new Son();
+        Father father = son;
+        father.fun();
 
         Daughter daughter = new Daughter();
+        JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
     }
 
 }
@@ -24,10 +30,14 @@ class Father{
         // 打印当前对象所属Class的名字
         System.out.println(this.getClass().getName());
     }
+
+    public void fun(){}
 }
 
 class Son extends Father {
+    public void fun1(){}
 }
 
 class Daughter extends Father {
+    public void fun2(){}
 }
