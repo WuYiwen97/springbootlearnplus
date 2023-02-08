@@ -1,6 +1,6 @@
 package com.wuyiwen.controller;
 
-import com.wuyiwen.vo.WxMpParam;
+import com.wuyiwen.framework.WxMpParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

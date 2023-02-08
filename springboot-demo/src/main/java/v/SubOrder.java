@@ -1,4 +1,4 @@
-package com.wuyiwen.vo;
+package v;
 
 public class SubOrder extends OrderTest<Integer>{
 

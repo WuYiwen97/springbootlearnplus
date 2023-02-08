@@ -1,10 +1,8 @@
 package com.wuyiwen.service;
 
-import com.wuyiwen.vo.FaWen;
-import com.wuyiwen.vo.ShouWen;
+import v.FaWen;
+import v.ShouWen;
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
-import org.mapstruct.factory.Mappers;
 
 @Mapper
 public interface PersonMapper {

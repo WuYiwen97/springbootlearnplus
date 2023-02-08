@@ -1,12 +1,9 @@
-package com.wuyiwen.vo;
+package v;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.bean.copier.CopyOptions;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import lombok.Data;
 import lombok.ToString;
-import org.jeasy.random.EasyRandom;
 import org.springframework.util.StringUtils;
 
 import java.util.*;

@@ -1,4 +1,4 @@
-package com.wuyiwen.vo;
+package v;
 
 import lombok.Data;
 

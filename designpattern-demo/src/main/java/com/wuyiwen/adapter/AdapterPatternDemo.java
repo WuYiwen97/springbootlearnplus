@@ -1,5 +1,9 @@
 package com.wuyiwen.adapter;
 
+import cn.hutool.core.collection.CollectionUtil;
+
+import java.util.ArrayList;
+
 public class AdapterPatternDemo {
    public static void main(String[] args) {
       AudioPlayer audioPlayer = new AudioPlayer();
@@ -8,5 +12,6 @@ public class AdapterPatternDemo {
       audioPlayer.play("mp4", "alone.mp4");
       audioPlayer.play("vlc", "far far away.vlc");
       audioPlayer.play("avi", "mind me.avi");
+
    }
 }
