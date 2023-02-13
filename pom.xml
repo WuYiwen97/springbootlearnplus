@@ -24,6 +24,7 @@
         <module>mybatis-plus</module>
         <module>designpattern-demo</module>
         <module>javabasictest</module>
+        <module>core-custom</module>
     </modules>
 
     <parent>

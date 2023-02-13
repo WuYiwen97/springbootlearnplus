@@ -1,0 +1,39 @@
+# 基础环境配置
+spring:
+  profiles:
+    active: simu
+
+server:
+  port: 6601
+  tomcat:
+    uri-encoding: UTF-8
+    max-http-form-post-size: -1
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+
+mybatis:
+  #实体类所在包
+  type-aliases-package: com.antaiib.external.entity
+  #mybatis主配置文件
+  config-location: classpath:mybatis/mybatis-config.xml
+  #映射文件
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+#通用增删查改mapper配置
+mapper:
+  mappers: com.antaiib.commons.tk.AntaiMapper
+  not-empty: false
+  identity: MYSQL
+
+#通用分页插件pagehelper配置
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: countSql
+
+
+
